@@ -14,6 +14,10 @@
 		3D7D6FD91BFFF7E40090A82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D6FD71BFFF7E40090A82C /* LaunchScreen.storyboard */; };
 		3D7D6FE41BFFF7E40090A82C /* Star_RatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D6FE31BFFF7E40090A82C /* Star_RatingTests.swift */; };
 		3D7D6FEF1BFFF7E40090A82C /* Star_RatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D6FEE1BFFF7E40090A82C /* Star_RatingUITests.swift */; };
+		3D7D6FFD1BFFF8D00090A82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D6FFC1BFFF8D00090A82C /* Main.storyboard */; };
+		3D7D6FFF1BFFF8F50090A82C /* RationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D6FFE1BFFF8F50090A82C /* RationControl.swift */; };
+		3D7D70021BFFF9490090A82C /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D70001BFFF9490090A82C /* emptyStar.png */; };
+		3D7D70031BFFF9490090A82C /* filledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D70011BFFF9490090A82C /* filledStar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3D7D6FEA1BFFF7E40090A82C /* Star RatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star RatingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7D6FEE1BFFF7E40090A82C /* Star_RatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_RatingUITests.swift; sourceTree = "<group>"; };
 		3D7D6FF01BFFF7E40090A82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7D6FFC1BFFF8D00090A82C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3D7D6FFE1BFFF8F50090A82C /* RationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RationControl.swift; sourceTree = "<group>"; };
+		3D7D70001BFFF9490090A82C /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
+		3D7D70011BFFF9490090A82C /* filledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 				3D7D6FE21BFFF7E40090A82C /* Star RatingTests */,
 				3D7D6FED1BFFF7E40090A82C /* Star RatingUITests */,
 				3D7D6FCC1BFFF7E40090A82C /* Products */,
+				3D7D70001BFFF9490090A82C /* emptyStar.png */,
+				3D7D70011BFFF9490090A82C /* filledStar.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +109,12 @@
 			children = (
 				3D7D6FCE1BFFF7E40090A82C /* AppDelegate.swift */,
 				3D7D6FD01BFFF7E40090A82C /* ViewController.swift */,
+				3D7D6FFE1BFFF8F50090A82C /* RationControl.swift */,
 				3D7D6FD21BFFF7E40090A82C /* Main.storyboard */,
 				3D7D6FD51BFFF7E40090A82C /* Assets.xcassets */,
 				3D7D6FD71BFFF7E40090A82C /* LaunchScreen.storyboard */,
 				3D7D6FDA1BFFF7E40090A82C /* Info.plist */,
+				3D7D6FFC1BFFF8D00090A82C /* Main.storyboard */,
 			);
 			path = "Star Rating";
 			sourceTree = "<group>";
@@ -230,8 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D7D6FD91BFFF7E40090A82C /* LaunchScreen.storyboard in Resources */,
+				3D7D70021BFFF9490090A82C /* emptyStar.png in Resources */,
 				3D7D6FD61BFFF7E40090A82C /* Assets.xcassets in Resources */,
+				3D7D70031BFFF9490090A82C /* filledStar.png in Resources */,
 				3D7D6FD41BFFF7E40090A82C /* Main.storyboard in Resources */,
+				3D7D6FFD1BFFF8D00090A82C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +273,7 @@
 			files = (
 				3D7D6FD11BFFF7E40090A82C /* ViewController.swift in Sources */,
 				3D7D6FCF1BFFF7E40090A82C /* AppDelegate.swift in Sources */,
+				3D7D6FFF1BFFF8F50090A82C /* RationControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
